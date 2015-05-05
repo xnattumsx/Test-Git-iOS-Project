@@ -21,6 +21,7 @@
 		D8152BDD1AF952E300D41BFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8152BBF1AF952E300D41BFB /* UIKit.framework */; };
 		D8152BE51AF952E300D41BFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8152BE31AF952E300D41BFB /* InfoPlist.strings */; };
 		D8152BE71AF952E300D41BFB /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152BE61AF952E300D41BFB /* Git_TestTests.m */; };
+		D8152BF21AF955AC00D41BFB /* NJSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152BF11AF955AC00D41BFB /* NJSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D8152BE21AF952E300D41BFB /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		D8152BE41AF952E300D41BFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8152BE61AF952E300D41BFB /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D8152BF01AF955AC00D41BFB /* NJSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSTest.h; sourceTree = "<group>"; };
+		D8152BF11AF955AC00D41BFB /* NJSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		D8152BAF1AF952E300D41BFB = {
 			isa = PBXGroup;
 			children = (
+				D8152BF01AF955AC00D41BFB /* NJSTest.h */,
+				D8152BF11AF955AC00D41BFB /* NJSTest.m */,
 				D8152BC11AF952E300D41BFB /* Git Test */,
 				D8152BE01AF952E300D41BFB /* Git TestTests */,
 				D8152BBA1AF952E300D41BFB /* Frameworks */,
@@ -253,6 +258,7 @@
 				D8152BD21AF952E300D41BFB /* NJSViewController.m in Sources */,
 				D8152BCC1AF952E300D41BFB /* NJSAppDelegate.m in Sources */,
 				D8152BC81AF952E300D41BFB /* main.m in Sources */,
+				D8152BF21AF955AC00D41BFB /* NJSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
